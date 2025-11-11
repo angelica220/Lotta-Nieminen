@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 1.1em;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: lightblue;
+
+}
+/* div{
+    background-color: antiquewhite;
+    width: 300px;
+    min-height: 50px;
+    border: solid 5px green;
+    padding: 10px 30px 60px 100px;
+    margin: 50px;
+
+} */
+
+header{
+    background-color: bisque;
+    min-height: 100px;
+    text-align: center;
+    padding: 20px 40px;
+}
+footer{
+    background-color: pink ;
+    color: bisque;
+    padding: 5px 20px;
+}
+
+#about{
+    background-color: pink;
+    padding: 20px 40px;
+    text-align: center;
+}
+#articles{
+    background-color: peachpuff;
+    padding: 20px 40px;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: pink;
+    text-decoration-line: underline overline
+}
+
+#content{
+    padding: 20px 40px;
+    background-color: lightblue;
+}
+
+nav{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: rgb(124, 26, 111);
+}
+
+a:hover{
+    color: rgb(64, 8, 78);
+}
+
+a:focus{
+    color: rgb(146, 22, 119);
+}
+
+a:active{
+    color: black;
+}
+
+.list-articles li:nth-child(even){
+    background-color:rgb(255, 255, 255);
+}
+
+.picture{
+    border-radius: 20%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+/* h2::after{
+    content: "new";
+    font-size: 0.5em;
+    color: blue;
+} */
+
+figcaption{
+    padding: 20px 40px;
+
+}
+
+figure{
+    padding: 20px 40px;
+}
+
+.indent{
+    margin: 20px 40px;
+}
+
+.term::after{
+    content: "Важно!";
+    font-size: 1em;
+    color: rgb(206, 13, 23); 
+}
+
+.one::first-line{
+    letter-spacing: 2px
+}
+
+.two{
+    color: pink;
+    background-color: rgb(0, 0, 0);
+}
+
+.free{
+    color: pink;
+    background-color: rgb(194, 16, 90);
+}
+
+.four{
+    border-radius: 20%;
+    border: 2px solid black;
+}
+
+.table-example {
+    border: 2px rgb(0, 0, 0) solid;
+    border-collapse: collapse;
+}
+
+.table-example thead {
+    background-color: rgb(94, 179, 207);
+}
+
+.table-example td, 
+.table-example th {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+}
+
+.table-example tr:nth-child(even){
+    background-color: lightblue;
+}
+
+.table-example td:last-child,
+.table-example th:last-child{
+    text-align: center;
+}
+
+/* .table-example tr:last-child td:last-child {
+    font-weight: bold;
+} */
+
+#feedback {
+    background-color: rgb(221, 151, 180);
+    width: 300px;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+#feedback input[type="text"] {
+    background-color: ivory;
+    padding: 5px 10px;
+    border: 1px solid rgb(122, 7, 61);
+    border-radius: 5px;
+}
+
+#feedback input[type="submit"] {
+    padding: 5px 10px;
+    border:none;
+    background-color: rgb(136, 18, 83);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+#feedback input[type="submit"]:hover {
+    background-color: rgb(255, 0, 106);
+}
+
+#feedback select, 
+#feedback textarea {
+    background-color: ivory;
+    padding: 5px 10px;
+    border: 1px solid rgb(122, 7, 61);
+    border-radius: 5px;
+    width: 190px;
+}
+
+#feedback textarea{
+    width: 170px;
+}
+
+a[href^=http] {
+    background-color: rgb(255, 0, 106);
+}
+
+p:lang(en) {
+    background-color: rgba(93, 180, 231, 0.267);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+table {
+    margin: 0px 30px 30px 30px;
+}
+
+.table-example th:first-child,
+.table-example td:first-child {
+    background-color:  rgba(94, 179, 207, 0.5);
+}
+
+.table-example tr:last-child {
+    background-color:  rgba(94, 179, 207, 0.5);
+}
+
+#feedbacko {
+    background-color: pink;
+    padding: 20px 40px;
+}
+
+#feedback input[type="email"] {
+    background-color: ivory;
+    padding: 5px 10px;
+    border: 1px solid rgb(122, 7, 61);
+    border-radius: 5px;
+}
+
+#feedback input[type="date"] {
+    background-color: ivory;
+    padding: 5px 10px;
+    border: 1px solid rgb(122, 7, 61);
+    border-radius: 5px;
+    width: 170px;
+}
